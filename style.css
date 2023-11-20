@@ -47,7 +47,7 @@ body {
   display: none;
 }
 
-.search__result-item {
+.search__result-item-inner {
   display: flex;
   gap: 65px;
   width: min(660px, 50%);
@@ -58,7 +58,7 @@ body {
   transition: background-color 0.5s ease-in-out;
 }
 
-.search__result-item:hover {
+.search__result-item-inner:hover {
   background-color: #d9d9d9;
 }
 
